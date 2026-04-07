@@ -6,9 +6,9 @@ int button1Pin = 29;
 int button2Pin = 30;
 int button3Pin = 31;
 
-BetterButton button1(button1Pin, 60);
-BetterButton button2(button2Pin, 62);
-BetterButton button3(button3Pin, 64);
+BetterButton button1(button1Pin, 72);
+BetterButton button2(button2Pin, 74);
+BetterButton button3(button3Pin, 76);
 
 BetterButton* buttonArray[3] = {&button1, &button2, &button3};
 
